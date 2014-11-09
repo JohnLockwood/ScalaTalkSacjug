@@ -15,7 +15,7 @@ Some topics will include:
 	* Simlarities and Differences
 	* Whats Better, What's Worse
 * Using the tools -- The scala repl
-* Scala as an accessible general purpose scripting language.
+* Scala as an accessible, general-purpose scripting language.
 * Scala as a concise form of Java
 * Functional Programming (Of course)
 * Scala as an impure functional language (mixed functional and imperative) language
