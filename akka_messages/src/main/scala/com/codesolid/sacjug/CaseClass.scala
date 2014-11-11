@@ -20,7 +20,7 @@ object Test extends App {
 }
 
 
-// case class Message(msgType: String, attributes: Map[String, String], content: String)
+//case class Message(msgType: String, attributes: Map[String, String], content: String)
 // val myMsg1 = Message("Exam", Map("publisher" -> "ABC"), "Not really an exam message")
 // val foo = Map("name" -> "John")
 
