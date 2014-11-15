@@ -5,10 +5,10 @@ package com.codesolid.sacjug
  */
 class MessageTest extends UnitSpec {
 
-    "A message" must "be a case class I can instantiate" in {
-        val myMessage = Message("exam", Map("routeToAbcCorp" -> "false"), "Don't believe everything you code")
-        myMessage should not be null
-        1 + 1 should "equal" 2
-    }
+    // TODO remove
+//    "A message" must "be a case class I can instantiate" in {
+//        val myMessage = Message("exam", Map("routeToAbcCorp" -> "false"), "Don't believe everything you code")
+//        myMessage should not be null
+//    }
 
 }
