@@ -12,7 +12,7 @@ I'll share my perspective on the benefits and challenges of learning Scala from 
 Some topics will include:
 
 * Coming to Scala From Java
-	* Simlarities and Differences
+	* Similarities and Differences
 	* Whats Better, What's Worse
 * Using the tools -- The scala repl
 * Scala as an accessible, general-purpose scripting language.
