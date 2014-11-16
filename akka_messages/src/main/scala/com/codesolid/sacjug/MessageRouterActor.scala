@@ -6,8 +6,8 @@ import akka.actor.Actor
  * Created by john on 11/10/14.
  */
 class MessageRouterActor extends Actor {
-    def receive = {
 
+    def receive : Receive = {
 
         case msg: ExamMessage => handleExamMessage(msg)
         case msg: ScheduleMessage => handleScheduleMessage(msg)

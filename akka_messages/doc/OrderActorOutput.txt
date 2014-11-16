@@ -1,0 +1,607 @@
+[DEBUG] [11/16/2014 13:37:58.681] [ScalaTest-run] [EventStream(akka://OrderTestActor)] logger log1-Logging$DefaultLogger started
+[DEBUG] [11/16/2014 13:37:58.683] [ScalaTest-run] [EventStream(akka://OrderTestActor)] Default Loggers started
+[DEBUG] [11/16/2014 13:37:58.692] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/system] now supervising Actor[akka://OrderTestActor/system/deadLetterListener#70820785]
+[DEBUG] [11/16/2014 13:37:58.696] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/system/deadLetterListener] started (akka.event.DeadLetterListener@1b64dd8e)
+[DEBUG] [11/16/2014 13:37:58.746] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/system/testActor1] started (akka.testkit.TestActor@9a33c3)
+[DEBUG] [11/16/2014 13:37:58.748] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/system] now supervising Actor[akka://OrderTestActor/system/testActor1#-1783139642][DEBUG] [11/16/2014 13:37:59.219] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user] now supervising Actor[akka://OrderTestActor/user/$a#-1038489128]
+ 1 begin
+[DEBUG] [11/16/2014 13:37:59.225] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] started (com.codesolid.sacjug.OrderTestActor@260ef584)
+[DEBUG] [11/16/2014 13:37:59.228] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 1
+ 1 end
+ 2 begin
+ 2 end
+[DEBUG] [11/16/2014 13:37:59.231] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 2
+ 3 begin
+ 3 end
+ 4 begin
+[DEBUG] [11/16/2014 13:37:59.232] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 3
+ 4 end
+ 5 begin
+[DEBUG] [11/16/2014 13:37:59.233] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 4
+ 5 end
+[DEBUG] [11/16/2014 13:37:59.233] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 5
+ 6 begin
+ 6 end
+[DEBUG] [11/16/2014 13:37:59.234] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 6
+ 7 begin
+ 7 end
+ 8 begin
+[DEBUG] [11/16/2014 13:37:59.235] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 7
+ 8 end
+[DEBUG] [11/16/2014 13:37:59.236] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 8
+ 9 begin
+ 9 end
+[DEBUG] [11/16/2014 13:37:59.237] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 9
+10 begin
+10 end
+[DEBUG] [11/16/2014 13:37:59.238] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 10
+11 begin
+11 end
+[DEBUG] [11/16/2014 13:37:59.240] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 11
+12 begin
+12 end
+13 begin
+[DEBUG] [11/16/2014 13:37:59.241] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 12
+13 end
+[DEBUG] [11/16/2014 13:37:59.242] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 13
+14 begin
+14 end
+[DEBUG] [11/16/2014 13:37:59.243] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 14
+15 begin
+15 end
+[DEBUG] [11/16/2014 13:37:59.244] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 15
+16 begin
+16 end
+[DEBUG] [11/16/2014 13:37:59.245] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 16
+17 begin
+17 end
+18 begin
+18 end
+[DEBUG] [11/16/2014 13:37:59.247] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 17
+19 begin
+19 end
+[DEBUG] [11/16/2014 13:37:59.247] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 18
+20 begin
+20 end
+[DEBUG] [11/16/2014 13:37:59.248] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 19
+21 begin
+21 end
+22 begin
+[DEBUG] [11/16/2014 13:37:59.249] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 20
+22 end
+23 begin
+[DEBUG] [11/16/2014 13:37:59.250] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 21
+23 end
+24 begin
+24 end
+[DEBUG] [11/16/2014 13:37:59.250] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 22
+25 begin
+25 end
+[DEBUG] [11/16/2014 13:37:59.251] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 23
+26 begin
+26 end
+[DEBUG] [11/16/2014 13:37:59.251] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 24
+27 begin
+27 end
+[DEBUG] [11/16/2014 13:37:59.252] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 25
+28 begin
+28 end
+[DEBUG] [11/16/2014 13:37:59.253] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 26
+29 begin
+29 end
+[DEBUG] [11/16/2014 13:37:59.253] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 27
+30 begin
+30 end
+31 begin
+[DEBUG] [11/16/2014 13:37:59.254] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 28
+31 end
+32 begin
+[DEBUG] [11/16/2014 13:37:59.255] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 29
+32 end
+33 begin
+[DEBUG] [11/16/2014 13:37:59.256] [OrderTestActor-akka.actor.default-dispatcher-5] [akka://OrderTestActor/user/$a] 30
+33 end
+34 begin
+34 end
+35 begin
+35 end
+[DEBUG] [11/16/2014 13:37:59.256] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 31
+36 begin
+[DEBUG] [11/16/2014 13:37:59.257] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 32
+[DEBUG] [11/16/2014 13:37:59.258] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 33
+[DEBUG] [11/16/2014 13:37:59.258] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 34
+[DEBUG] [11/16/2014 13:37:59.259] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 35
+36 end
+37 begin
+37 end
+38 begin
+38 end
+39 begin
+39 end
+40 begin
+40 end
+41 begin
+41 end
+42 begin
+42 end
+43 begin
+43 end
+44 begin
+44 end
+45 begin
+45 end
+46 begin
+46 end
+47 begin
+47 end
+48 begin
+48 end
+49 begin
+[DEBUG] [11/16/2014 13:37:59.260] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 36
+[DEBUG] [11/16/2014 13:37:59.264] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 37
+[DEBUG] [11/16/2014 13:37:59.264] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 38
+[DEBUG] [11/16/2014 13:37:59.265] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 39
+[DEBUG] [11/16/2014 13:37:59.265] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 40
+[DEBUG] [11/16/2014 13:37:59.266] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 41
+49 end
+[DEBUG] [11/16/2014 13:37:59.267] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 42
+50 begin
+50 end
+[DEBUG] [11/16/2014 13:37:59.267] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 43
+[DEBUG] [11/16/2014 13:37:59.268] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 44
+[DEBUG] [11/16/2014 13:37:59.268] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 45
+[DEBUG] [11/16/2014 13:37:59.269] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 46
+[DEBUG] [11/16/2014 13:37:59.269] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 47
+51 begin
+51 end
+52 begin
+52 end
+53 begin
+53 end
+54 begin
+54 end
+55 begin
+55 end
+56 begin
+56 end
+57 begin
+[DEBUG] [11/16/2014 13:37:59.270] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 48
+[DEBUG] [11/16/2014 13:37:59.271] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 49
+[DEBUG] [11/16/2014 13:37:59.275] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 50
+[DEBUG] [11/16/2014 13:37:59.279] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 51
+[DEBUG] [11/16/2014 13:37:59.280] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 52
+57 end
+58 begin
+58 end
+59 begin
+59 end
+60 begin
+60 end
+61 begin
+61 end
+62 begin
+62 end
+63 begin
+63 end
+64 begin
+64 end
+65 begin
+65 end
+[DEBUG] [11/16/2014 13:37:59.280] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 53
+[DEBUG] [11/16/2014 13:37:59.281] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 54
+[DEBUG] [11/16/2014 13:37:59.281] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 55
+[DEBUG] [11/16/2014 13:37:59.282] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 56
+66 begin
+66 end
+67 begin
+[DEBUG] [11/16/2014 13:37:59.283] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 57
+67 end
+68 begin
+[DEBUG] [11/16/2014 13:37:59.288] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 58
+68 end
+69 begin
+[DEBUG] [11/16/2014 13:37:59.290] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 59
+69 end
+70 begin
+70 end
+[DEBUG] [11/16/2014 13:37:59.291] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 60
+[DEBUG] [11/16/2014 13:37:59.292] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 61
+71 begin
+71 end
+72 begin
+72 end
+73 begin
+73 end
+74 begin
+74 end
+75 begin
+75 end
+[DEBUG] [11/16/2014 13:37:59.292] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 62
+76 begin
+76 end
+77 begin
+77 end
+78 begin
+78 end
+79 begin
+79 end
+80 begin
+80 end
+81 begin
+81 end
+82 begin
+82 end
+83 begin
+83 end
+84 begin
+84 end
+[DEBUG] [11/16/2014 13:37:59.293] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 63
+85 begin
+85 end
+[DEBUG] [11/16/2014 13:37:59.293] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 64
+86 begin
+86 end
+[DEBUG] [11/16/2014 13:37:59.294] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 65
+87 begin
+87 end
+[DEBUG] [11/16/2014 13:37:59.297] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 66
+88 begin
+88 end
+89 begin
+[DEBUG] [11/16/2014 13:37:59.297] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 67
+89 end
+90 begin
+[DEBUG] [11/16/2014 13:37:59.298] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 68
+90 end
+[DEBUG] [11/16/2014 13:37:59.299] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 69
+91 begin
+91 end
+[DEBUG] [11/16/2014 13:37:59.300] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 70
+92 begin
+92 end
+[DEBUG] [11/16/2014 13:37:59.304] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 71
+[DEBUG] [11/16/2014 13:37:59.305] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 72
+[DEBUG] [11/16/2014 13:37:59.305] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 73
+[DEBUG] [11/16/2014 13:37:59.306] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 74
+[DEBUG] [11/16/2014 13:37:59.306] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 75
+[DEBUG] [11/16/2014 13:37:59.308] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 76
+93 begin
+[DEBUG] [11/16/2014 13:37:59.309] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 77
+93 end
+94 begin
+[DEBUG] [11/16/2014 13:37:59.310] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 78
+94 end
+95 begin
+[DEBUG] [11/16/2014 13:37:59.310] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 79
+95 end
+[DEBUG] [11/16/2014 13:37:59.311] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 80
+96 begin
+96 end
+[DEBUG] [11/16/2014 13:37:59.312] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 81
+97 begin
+97 end
+[DEBUG] [11/16/2014 13:37:59.312] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 82
+98 begin
+98 end
+99 begin
+99 end
+100 begin
+[DEBUG] [11/16/2014 13:37:59.313] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 83
+[DEBUG] [11/16/2014 13:37:59.313] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 84
+[DEBUG] [11/16/2014 13:37:59.314] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 85
+[DEBUG] [11/16/2014 13:37:59.315] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 86
+[DEBUG] [11/16/2014 13:37:59.315] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 87
+100 end
+[DEBUG] [11/16/2014 13:37:59.316] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 88
+[DEBUG] [11/16/2014 13:37:59.316] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 89
+[DEBUG] [11/16/2014 13:37:59.317] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 90
+101 begin
+101 end
+102 begin
+102 end
+103 begin
+103 end
+104 begin
+104 end
+105 begin
+105 end
+[DEBUG] [11/16/2014 13:37:59.319] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 91
+[DEBUG] [11/16/2014 13:37:59.320] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 92
+[DEBUG] [11/16/2014 13:37:59.323] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 93
+[DEBUG] [11/16/2014 13:37:59.324] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 94
+106 begin
+[DEBUG] [11/16/2014 13:37:59.325] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 95
+106 end
+[DEBUG] [11/16/2014 13:37:59.326] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 96
+107 begin
+[DEBUG] [11/16/2014 13:37:59.326] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 97
+107 end
+[DEBUG] [11/16/2014 13:37:59.327] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 98
+[DEBUG] [11/16/2014 13:37:59.328] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 99
+[DEBUG] [11/16/2014 13:37:59.328] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 100
+[DEBUG] [11/16/2014 13:37:59.333] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 101
+[DEBUG] [11/16/2014 13:37:59.334] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 102
+[DEBUG] [11/16/2014 13:37:59.334] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 103
+[DEBUG] [11/16/2014 13:37:59.335] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 104
+[DEBUG] [11/16/2014 13:37:59.335] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 105
+[DEBUG] [11/16/2014 13:37:59.341] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 106
+108 begin
+108 end
+109 begin
+109 end
+110 begin
+110 end
+111 begin
+111 end
+112 begin
+[DEBUG] [11/16/2014 13:37:59.342] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 107
+112 end
+113 begin
+[DEBUG] [11/16/2014 13:37:59.347] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 108
+113 end
+114 begin
+[DEBUG] [11/16/2014 13:37:59.348] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 109
+114 end
+115 begin
+115 end
+[DEBUG] [11/16/2014 13:37:59.349] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 110
+116 begin
+116 end
+[DEBUG] [11/16/2014 13:37:59.349] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 111
+117 begin
+117 end
+118 begin
+[DEBUG] [11/16/2014 13:37:59.350] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 112
+118 end
+119 begin
+[DEBUG] [11/16/2014 13:37:59.350] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 113
+119 end
+120 begin
+120 end
+[DEBUG] [11/16/2014 13:37:59.351] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 114
+121 begin
+121 end
+[DEBUG] [11/16/2014 13:37:59.351] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 115
+122 begin
+122 end
+[DEBUG] [11/16/2014 13:37:59.352] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 116
+123 begin
+123 end
+[DEBUG] [11/16/2014 13:37:59.353] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 117
+124 begin
+124 end
+[DEBUG] [11/16/2014 13:37:59.353] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 118
+125 begin
+125 end
+[DEBUG] [11/16/2014 13:37:59.354] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 119
+126 begin
+126 end
+[DEBUG] [11/16/2014 13:37:59.354] [OrderTestActor-akka.actor.default-dispatcher-3] [akka://OrderTestActor/user/$a] 120
+127 begin
+[DEBUG] [11/16/2014 13:37:59.355] [OrderTestActor-akka.actor.default-dispatcher-9] [akka://OrderTestActor/user/$a] 121
+127 end
+128 begin
+128 end
+129 begin
+129 end
+130 begin
+130 end
+131 begin
+131 end
+132 begin
+132 end
+133 begin
+133 end
+134 begin
+134 end
+135 begin
+135 end
+136 begin
+136 end
+137 begin
+137 end
+138 begin
+138 end
+139 begin
+139 end
+140 begin
+140 end
+141 begin
+141 end
+142 begin
+142 end
+143 begin
+143 end
+144 begin
+144 end
+145 begin
+145 end
+146 begin
+146 end
+147 begin
+147 end
+148 begin
+148 end
+149 begin
+149 end
+150 begin
+150 end
+151 begin
+151 end
+152 begin
+152 end
+153 begin
+153 end
+154 begin
+154 end
+155 begin
+155 end
+156 begin
+156 end
+157 begin
+157 end
+158 begin
+158 end
+[DEBUG] [11/16/2014 13:37:59.356] [OrderTestActor-akka.actor.default-dispatcher-9] [akka://OrderTestActor/user/$a] 122
+[DEBUG] [11/16/2014 13:37:59.356] [OrderTestActor-akka.actor.default-dispatcher-9] [akka://OrderTestActor/user/$a] 123
+[DEBUG] [11/16/2014 13:37:59.357] [OrderTestActor-akka.actor.default-dispatcher-9] [akka://OrderTestActor/user/$a] 124
+[DEBUG] [11/16/2014 13:37:59.357] [OrderTestActor-akka.actor.default-dispatcher-9] [akka://OrderTestActor/user/$a] 125
+[DEBUG] [11/16/2014 13:37:59.358] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 126
+159 begin
+[DEBUG] [11/16/2014 13:37:59.359] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 127
+159 end
+[DEBUG] [11/16/2014 13:37:59.360] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 128
+160 begin
+[DEBUG] [11/16/2014 13:37:59.360] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 129
+[DEBUG] [11/16/2014 13:37:59.361] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 130
+[DEBUG] [11/16/2014 13:37:59.361] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 131
+[DEBUG] [11/16/2014 13:37:59.362] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 132
+160 end
+[DEBUG] [11/16/2014 13:37:59.362] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 133
+161 begin
+[DEBUG] [11/16/2014 13:37:59.363] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 134
+[DEBUG] [11/16/2014 13:37:59.363] [OrderTestActor-akka.actor.default-dispatcher-2] [akka://OrderTestActor/user/$a] 135
+[DEBUG] [11/16/2014 13:37:59.364] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 136
+161 end
+[DEBUG] [11/16/2014 13:37:59.364] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 137
+162 begin
+[DEBUG] [11/16/2014 13:37:59.365] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 138
+162 end
+[DEBUG] [11/16/2014 13:37:59.365] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 139
+163 begin
+[DEBUG] [11/16/2014 13:37:59.366] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 140
+163 end
+[DEBUG] [11/16/2014 13:37:59.367] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 141
+[DEBUG] [11/16/2014 13:37:59.367] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 142
+164 begin
+[DEBUG] [11/16/2014 13:37:59.368] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 143
+164 end
+[DEBUG] [11/16/2014 13:37:59.368] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 144
+165 begin
+[DEBUG] [11/16/2014 13:37:59.369] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 145
+165 end
+[DEBUG] [11/16/2014 13:37:59.370] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 146
+[DEBUG] [11/16/2014 13:37:59.370] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 147
+166 begin
+[DEBUG] [11/16/2014 13:37:59.371] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 148
+166 end
+[DEBUG] [11/16/2014 13:37:59.371] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 149
+167 begin
+[DEBUG] [11/16/2014 13:37:59.372] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 150
+167 end
+[DEBUG] [11/16/2014 13:37:59.372] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 151
+168 begin
+168 end
+[DEBUG] [11/16/2014 13:37:59.373] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 152
+169 begin
+169 end
+170 begin
+170 end
+[DEBUG] [11/16/2014 13:37:59.373] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 153
+[DEBUG] [11/16/2014 13:37:59.374] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 154
+[DEBUG] [11/16/2014 13:37:59.374] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 155
+[DEBUG] [11/16/2014 13:37:59.375] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 156
+[DEBUG] [11/16/2014 13:37:59.375] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 157
+[DEBUG] [11/16/2014 13:37:59.376] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 158
+[DEBUG] [11/16/2014 13:37:59.379] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 159
+[DEBUG] [11/16/2014 13:37:59.380] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 160
+[DEBUG] [11/16/2014 13:37:59.383] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 161
+171 begin
+[DEBUG] [11/16/2014 13:37:59.385] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 162
+[DEBUG] [11/16/2014 13:37:59.387] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 163
+171 end
+172 begin
+[DEBUG] [11/16/2014 13:37:59.388] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 164
+172 end
+173 begin
+[DEBUG] [11/16/2014 13:37:59.389] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 165
+173 end
+174 begin
+[DEBUG] [11/16/2014 13:37:59.391] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 166
+174 end
+175 begin
+[DEBUG] [11/16/2014 13:37:59.392] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 167
+175 end
+[DEBUG] [11/16/2014 13:37:59.393] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 168
+176 begin
+176 end
+[DEBUG] [11/16/2014 13:37:59.394] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 169
+177 begin
+[DEBUG] [11/16/2014 13:37:59.394] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 170
+177 end
+178 begin
+[DEBUG] [11/16/2014 13:37:59.400] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 171
+178 end
+179 begin
+[DEBUG] [11/16/2014 13:37:59.401] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 172
+179 end
+180 begin
+[DEBUG] [11/16/2014 13:37:59.402] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 173
+180 end
+181 begin
+[DEBUG] [11/16/2014 13:37:59.403] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 174
+181 end
+182 begin
+[DEBUG] [11/16/2014 13:37:59.403] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 175
+182 end
+183 begin
+[DEBUG] [11/16/2014 13:37:59.404] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 176
+183 end
+184 begin
+[DEBUG] [11/16/2014 13:37:59.405] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 177
+184 end
+185 begin
+[DEBUG] [11/16/2014 13:37:59.405] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 178
+185 end
+186 begin
+186 end
+[DEBUG] [11/16/2014 13:37:59.406] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 179
+187 begin
+187 end
+188 begin
+[DEBUG] [11/16/2014 13:37:59.406] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 180
+188 end
+189 begin
+189 end
+[DEBUG] [11/16/2014 13:37:59.407] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 181
+190 begin
+190 end
+[DEBUG] [11/16/2014 13:37:59.408] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 182
+191 begin
+[DEBUG] [11/16/2014 13:37:59.409] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 183
+[DEBUG] [11/16/2014 13:37:59.409] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 184
+[DEBUG] [11/16/2014 13:37:59.412] [OrderTestActor-akka.actor.default-dispatcher-6] [akka://OrderTestActor/user/$a] 185
+[DEBUG] [11/16/2014 13:37:59.413] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 186
+[DEBUG] [11/16/2014 13:37:59.413] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 187
+[DEBUG] [11/16/2014 13:37:59.414] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 188
+[DEBUG] [11/16/2014 13:37:59.415] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 189
+[DEBUG] [11/16/2014 13:37:59.415] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 190
+[DEBUG] [11/16/2014 13:37:59.416] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 191
+191 end
+192 begin
+192 end
+193 begin
+193 end
+194 begin
+194 end
+195 begin
+195 end
+196 begin
+196 end
+[DEBUG] [11/16/2014 13:37:59.423] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 192
+197 begin
+197 end
+198 begin
+[DEBUG] [11/16/2014 13:37:59.423] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 193
+198 end
+199 begin
+[DEBUG] [11/16/2014 13:37:59.424] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 194
+199 end
+200 begin
+[DEBUG] [11/16/2014 13:37:59.424] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 195
+200 end
+[DEBUG] [11/16/2014 13:37:59.425] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 196
+[DEBUG] [11/16/2014 13:37:59.426] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 197
+[DEBUG] [11/16/2014 13:37:59.426] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 198
+[DEBUG] [11/16/2014 13:37:59.427] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 199
+[DEBUG] [11/16/2014 13:37:59.427] [OrderTestActor-akka.actor.default-dispatcher-4] [akka://OrderTestActor/user/$a] 200

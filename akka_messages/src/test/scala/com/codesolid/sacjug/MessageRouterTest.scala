@@ -10,8 +10,8 @@ import org.scalatest.{fixture, Matchers, BeforeAndAfterAll, WordSpecLike}
 /**
  * Created by john on 11/14/14.
  */
-class MessageRouterTest(_system: ActorSystem) extends TestKit(_system) with ImplicitSender
-    with WordSpecLike with Matchers with BeforeAndAfterAll {
+
+    class MessageRouterTest(_system: ActorSystem)  extends BaseTestKit(_system) {
 
     def this() = this(ActorSystem("MessageRouterTest"))
 
