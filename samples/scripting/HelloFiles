@@ -1,0 +1,18 @@
+#!/bin/bash
+exec scala "$0" "$@"
+!#
+
+import sys.process._
+import scala.language.postfixOps
+
+object HelloFiles {
+	def main(args: Array[String]) {
+    	println("Hello, world.  Here are the files in our directory: ")
+    	val files = ("ls ." !!).split("\n")
+    	files.foreach {
+    		println _ 
+    	}
+  }
+}
+
+HelloFiles.main(args)
