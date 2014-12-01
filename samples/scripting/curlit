@@ -1,0 +1,20 @@
+#!/bin/bash
+exec scala "$0" "$@"
+!#
+
+import sys.process._
+import scala.language.postfixOps
+
+object HttpClient {
+	def main(args: Array[String]) {        
+        val html : String = "curl http://codesolid.com".!!
+    	if (html.contains("Scala")) {
+    		println("Scala detected, fanboy alert!")
+    	}
+    	else {
+    		println("Absense of Scala -- fail!")
+    	}                
+    }
+}
+
+HttpClient.main(args)

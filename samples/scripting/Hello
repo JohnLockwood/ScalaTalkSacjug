@@ -1,0 +1,9 @@
+#!/bin/bash
+exec scala "$0" "$@"
+!#
+
+object Hello extends App {
+	println("Hello world")
+}
+
+Hello.main(args)

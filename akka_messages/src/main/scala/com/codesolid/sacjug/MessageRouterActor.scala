@@ -9,6 +9,7 @@ class MessageRouterActor extends Actor {
 
     def receive : Receive = {
 
+        case ExamMessage(_, "dead") => handleDeadMessage()
         case msg: ExamMessage => handleExamMessage(msg)
         case msg: ScheduleMessage => handleScheduleMessage(msg)
 
@@ -19,6 +20,10 @@ class MessageRouterActor extends Actor {
 
     def handleExamMessage(msg: ExamMessage): Unit = {
         sender ! "Exam Message"
+    }
+
+    def handleDeadMessage(): Unit = {
+        sender ! "We're very sorry for your loss"
     }
 
 

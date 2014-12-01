@@ -42,9 +42,18 @@ import org.scalatest.{fixture, Matchers, BeforeAndAfterAll, WordSpecLike}
             val router = system.actorOf(Props[MessageRouterActor])
 
             val emptyMap : Map[String,String] = Map()
-            val m = ExamMessage(emptyMap, "Patient looked ill, then died.  That's just sad.")
+            val m = ExamMessage(emptyMap, "Patient is looking a bit pale, and is missing his nose.")
             router ! m
             expectMsg("Exam Message")
+        }
+
+        "express sympathy if sent an Exam Message for dead patient" in {
+            val router = system.actorOf(Props[MessageRouterActor])
+
+            val emptyMap : Map[String,String] = Map()
+            val m = ExamMessage(emptyMap, "dead")
+            router ! m
+            expectMsg("We're very sorry for your loss")
         }
 
         "send \"Schedule Message\" plus time if sent a Schedule Message" in {
