@@ -1,0 +1,2 @@
+g8 fayimora/basic-scala-project
+g8 codesolid/cassandra
