@@ -8,6 +8,9 @@ import scala.util.Random
 
 /**
  * Created by john on 11/15/14.
+ * This is less of a test than it is a demonstration.  printf is synchronous and shows
+ * that for a single actor instance, calls are queued in order.  log.debug on the other hand
+ * is asynchronous.
  */
 class OrderDemoActor extends Actor {
     val log = Logging(context.system, this)
